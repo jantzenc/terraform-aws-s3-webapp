@@ -64,5 +64,3 @@ resource "aws_s3_object" "webapp" {
   content      = file("${path.module}/assets/index.html")
   content_type = "text/html"
 }
-
-# Meaningless comment
